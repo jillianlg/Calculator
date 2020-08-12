@@ -1,51 +1,95 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  <title>Calculator</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>A fantastical adventure</title>
 </head>
 <body>
   <div class="container">
-    <h1>Fill in the blanks to write your story!</h1>
-    <div>
-      <form id="formOne">
-        <div class="form-group">
-          <label for="person1">A name</label>
-          <input id="person1" class="form-control" type="text">
+    <h1>Calculator</h1>
+    <!-- Output section -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="group-std">
+          <h4>Total:</h4>
+          <div id="output"></div>
         </div>
-        <div class="form-group">
-          <label for="person2">Another name</label>
-          <input id="person2" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="animal">An animal</label>
-          <input id="animal" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="exclamation">An exclamation</label>
-          <input id="exclamation" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="verb">A past tense verb</label>
-          <input id="verb" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="noun">A noun</label>
-          <input id="noun" class="form-control" type="text">
-        </div>
-
-        <button type="submit" class="btn">Show me the story!</button>
-      </form>
+      </div>
     </div>
-
-    <div id="story">
-      <h1>A fantastical adventure</h1>
-      <p>
-        One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.
-      </p>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Add group -->
+        <div class="group-std">
+          <h4>Add</h4>
+          <form id="add">
+            <div class="form-group">
+              <label for="add1">1st number:</label>
+              <input id="add1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="add2">2nd number:</label>
+              <input id="add2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Add!</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Subtract group -->
+        <div class="group-std">
+          <h4>Subtract</h4>
+          <form id="subtract">
+            <div class="form-group">
+              <label for="sub1">1st number:</label>
+              <input id="sub1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="sub2">2nd number:</label>
+              <input id="sub2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Subtract!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Multiply group -->
+        <div class="group-std">
+          <h4>Multiply</h4>
+          <form id="multiply">
+            <div class="form-group">
+              <label for="mult1">1st number:</label>
+              <input id="mult1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="mult2">2nd number:</label>
+              <input id="mult2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Multiply!</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Divide group -->
+        <div class="group-std">
+          <h4>Divide</h4>
+          <form id="divide">
+            <div class="form-group">
+              <label for="div1">1st number:</label>
+              <input id="div1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="div2">2nd number:</label>
+              <input id="div2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Divide!</button>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </body>
