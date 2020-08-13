@@ -41,8 +41,7 @@ $(document).ready(function() {
   });
 });
 
-/* 
-
+/* OLD BUSNESS AND UI WITH NESTING
 $(document).ready(function() {
   $("form#add").submit(function(event) {
     event.preventDefault();
