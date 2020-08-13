@@ -1,12 +1,12 @@
 # _Calculator Assignment_
 
-#### _Application of the form function, 8.11.2020_
+#### _Application of the form function with branching, 8.11.2020_
 
 #### By _**Jillian Gibson and David McCaslin**_
 
 ## Description
 
-_This HTML demonstrates the fundamental understanding of forms using jQuery and Bootstrap._
+_This HTML demonstrates the fundamental understanding of forms using interface and business logic written in JavaScript, branching, HTML forms, Bootstrap, custom CSS._
 
 ## Setup/Installation Requirements
 
@@ -29,7 +29,7 @@ _Questions or comments can be directed to [Jillian Gibson](jillian.l.gibson@gmai
 * _HTML_
 * _JavaScript_
 * _Bootstrap_
-* -jQuery
+* _jQuery_
 
 ### License
 

@@ -10,7 +10,53 @@
 <body>
   <div class="container">
     <h1>Calculator</h1>
-    <!-- Output section -->
+    <!-- Input section -->
+    <div class="group-std">
+      <h4>Add</h4>
+      <form id="inputs">
+        <div class="form-group">
+          <label for="input1">1st number:</label>
+          <input id="input1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="input2">2nd number:</label>
+          <input id="input2" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="add" checked> Add
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="subtract"> Subtract
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="multiply"> Multiply
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="operator" value="divide"> Divide
+          </label>
+        </div>
+        <button type="submit" class="btn-primary">Submit!</button>
+      </form>
+          <!-- Output section -->
+      <div class="group-std">
+        <h4>Total:</h4>
+        <div id="output"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OLD BODY WITH NESTING
+
+  <div class="container">
+    <h1>Calculator</h1>
+    -- Output section --
     <div class="row">
       <div class="col-md-12">
         <div class="group-std">
@@ -21,7 +67,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <!-- Add group -->
+        -- Add group --
         <div class="group-std">
           <h4>Add</h4>
           <form id="add">
@@ -38,7 +84,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <!-- Subtract group -->
+        -- Subtract group --
         <div class="group-std">
           <h4>Subtract</h4>
           <form id="subtract">
@@ -57,7 +103,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <!-- Multiply group -->
+        -- Multiply group --
         <div class="group-std">
           <h4>Multiply</h4>
           <form id="multiply">
@@ -74,7 +120,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <!-- Divide group -->
+        -- Divide group --
         <div class="group-std">
           <h4>Divide</h4>
           <form id="divide">
@@ -91,6 +137,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </body>
 </html>
